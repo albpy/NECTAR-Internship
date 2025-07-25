@@ -14,6 +14,7 @@ pub const std_options: std.Options = .{
 };
 var global_allocator: ?std.mem.Allocator = null;
 const tag = "zig-example";
+// Enable pin should be turned on from external source
 const MotorLeft:  u8 = 0b00000100;
 const MotorRight: u8 = 0b00001000;
 const MotorOff:   u8 = 0b00000000;
